@@ -49,8 +49,12 @@ export default function ShelterHouse() {
     160,
   ];
   const images = [...Array(34).keys()].map((num) => ({
-    src: `/images/shelter-house-install-view/${fullWidth}/${num + 1}.jpg`,
-    thumbnail: `/images/shelter-house-install-view/240px/${num + 1}.jpg`,
+    src: `https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/${fullWidth}/${
+      num + 1
+    }.jpg`,
+    thumbnail: `https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/240px/${
+      num + 1
+    }.jpg`,
     thumbnailHeight: thumbnailHeights[num],
     thumbnailWidth: 240,
   }));

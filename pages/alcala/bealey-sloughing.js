@@ -15,7 +15,7 @@ export default function BealeySloughing() {
         {isLargeScreen ? (
           <div className="mx-auto place-self-center bg-black p-16">
             <ReactPlayer
-              url="/video/bealey-sloughing-480p.mp4"
+              url="https://storage.googleapis.com/grace-crothall/video/bealey-sloughing-480p.mp4"
               playing={true}
               loop={true}
               width="854px"
@@ -25,7 +25,7 @@ export default function BealeySloughing() {
         ) : isMedScreen ? (
           <div className="mx-auto place-self-center bg-black p-12">
             <ReactPlayer
-              url="/video/bealey-sloughing-360p.mp4"
+              url="https://storage.googleapis.com/grace-crothall/video/bealey-sloughing-360p.mp4"
               playing={true}
               loop={true}
               width="640px"
@@ -35,7 +35,7 @@ export default function BealeySloughing() {
         ) : (
           <div className="mx-auto place-self-center bg-black p-8">
             <ReactPlayer
-              url="/video/bealey-sloughing-240p.mp4"
+              url="https://storage.googleapis.com/grace-crothall/video/bealey-sloughing-240p.mp4"
               playing={true}
               loop={true}
               width="426px"

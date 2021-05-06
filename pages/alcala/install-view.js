@@ -13,8 +13,12 @@ export default function AlcalaInstallView() {
   else if (screenWidth === "lg") fullWidth = "1280px";
   let thumbnailHeights = [159, 159, 362, 159, 365, 362, 159, 150];
   const images = [...Array(8).keys()].map((num) => ({
-    src: `/images/alcala-install-view/${fullWidth}/${num + 1}.jpg`,
-    thumbnail: `/images/alcala-install-view/240px/${num + 1}.jpg`,
+    src: `https://storage.googleapis.com/grace-crothall/images/alcala-install-view/${fullWidth}/${
+      num + 1
+    }.jpg`,
+    thumbnail: `https://storage.googleapis.com/grace-crothall/images/alcala-install-view/240px/${
+      num + 1
+    }.jpg`,
     thumbnailHeight: thumbnailHeights[num],
     thumbnailWidth: 240,
   }));

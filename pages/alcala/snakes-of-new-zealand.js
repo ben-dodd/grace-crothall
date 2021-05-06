@@ -9,7 +9,7 @@ export default function SnakesOfNewZealand() {
       <div className="flex-grow flex w-screen">
         <div className="mx-auto p-10 w-1/5">
           <Image
-            src="/images/title-images/600px/alcala-snakes-of-new-zealand.jpg"
+            src="https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala-snakes-of-new-zealand.jpg"
             height="749px"
             width="600px"
           />
