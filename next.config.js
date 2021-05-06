@@ -1,4 +1,7 @@
 module.exports = {
+  images: {
+    domains: ["storage.googleapis.com"],
+  },
   webpack: (config, { isServer }) => {
     // Fixes npm packages that depend on `fs` module
     if (!isServer) {
