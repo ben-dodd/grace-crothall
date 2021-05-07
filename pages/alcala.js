@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/layout";
+import { rootPath } from "../lib/text";
 
 export default function InstallView() {
   return (
@@ -12,7 +13,7 @@ export default function InstallView() {
             <a aria-label="Alcala Install View">
               <Image
                 className="hover:opacity-80"
-                src="https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala-install-view.jpg"
+                src={`${rootPath}/images/title-images/600px/alcala-install-view.jpg`}
                 height="397px"
                 width="600px"
               />
@@ -30,7 +31,7 @@ export default function InstallView() {
             <a aria-label="Snakes of New Zealand publication">
               <Image
                 className="hover:opacity-80"
-                src="https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala-snakes-of-new-zealand.jpg"
+                src={`${rootPath}/images/title-images/600px/alcala-snakes-of-new-zealand.jpg`}
                 height="749px"
                 width="600px"
               />
@@ -48,7 +49,7 @@ export default function InstallView() {
             <a aria-label="Bealey Sloughing moving image">
               <Image
                 className="hover:opacity-80"
-                src="https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala-bealey-sloughing.jpg"
+                src={`${rootPath}/images/title-images/600px/alcala-bealey-sloughing.jpg`}
                 height="480px"
                 width="600px"
               />

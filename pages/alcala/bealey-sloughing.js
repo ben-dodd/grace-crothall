@@ -4,7 +4,13 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import ReactPlayer from "react-player";
 import { useMediaQuery } from "../../lib/mediaQuery";
-import { PlayArrow, Pause, VolumeOff, VolumeUp } from "react-icons/md";
+import {
+  MdPlayCircleOutline,
+  MdPauseCircleOutline,
+  MdVolumeOff,
+  MdVolumeUp,
+} from "react-icons/md";
+import { rootPath } from "../../lib/text";
 
 export default function BealeySloughing() {
   const isLargeScreen = useMediaQuery(`(min-width:1024px)`);
@@ -16,17 +22,10 @@ export default function BealeySloughing() {
     <Layout>
       <div className="flex-grow flex w-screen">
         {isLargeScreen ? (
-          <div className="mx-auto place-self-center bg-black p-16">
-            <div className="flex">
-              <button onClick={() => setIsPlaying((current) => !current)}>
-                {isPlaying ? <Pause /> : <PlayArrow />}
-              </button>
-              <button onClick={() => setIsMuted((current) => !current)}>
-                {isMuted ? <VolumeOff /> : <VolumeUp />}
-              </button>
-            </div>
+          <div className="mx-auto place-self-center bg-black p-16 pt-6">
+            <Controls />
             <ReactPlayer
-              url="https://storage.googleapis.com/grace-crothall/video/bealey-sloughing-480p.mp4"
+              url={`${rootPath}/video/bealey-sloughing-480p.mp4`}
               playing={isPlaying}
               loop={true}
               width="854px"
@@ -36,17 +35,10 @@ export default function BealeySloughing() {
             />
           </div>
         ) : isMedScreen ? (
-          <div className="mx-auto place-self-center bg-black p-12">
-            <div className="flex">
-              <button onClick={() => setIsPlaying((current) => !current)}>
-                {isPlaying ? <Pause /> : <PlayArrow />}
-              </button>
-              <button onClick={() => setIsMuted((current) => !current)}>
-                {isMuted ? <VolumeOff /> : <VolumeUp />}
-              </button>
-            </div>
+          <div className="mx-auto place-self-center bg-black p-12 pt-5">
+            <Controls />
             <ReactPlayer
-              url="https://storage.googleapis.com/grace-crothall/video/bealey-sloughing-360p.mp4"
+              url={`${rootPath}/video/bealey-sloughing-360p.mp4`}
               playing={isPlaying}
               loop={true}
               width="640px"
@@ -56,17 +48,10 @@ export default function BealeySloughing() {
             />
           </div>
         ) : (
-          <div className="mx-auto place-self-center bg-black p-8">
-            <div className="flex">
-              <button onClick={() => setIsPlaying((current) => !current)}>
-                {isPlaying ? <Pause /> : <PlayArrow />}
-              </button>
-              <button onClick={() => setIsMuted((current) => !current)}>
-                {isMuted ? <VolumeOff /> : <VolumeUp />}
-              </button>
-            </div>
+          <div className="mx-auto place-self-center bg-black p-8 pt-2">
+            <Controls />
             <ReactPlayer
-              url="https://storage.googleapis.com/grace-crothall/video/bealey-sloughing-240p.mp4"
+              url={`${rootPath}/video/bealey-sloughing-240p.mp4`}
               playing={isPlaying}
               loop={true}
               width="426px"
@@ -79,4 +64,20 @@ export default function BealeySloughing() {
       </div>
     </Layout>
   );
+
+  function Controls() {
+    return (
+      <div className="flex text-white text-3xl">
+        <button
+          className="pr-2"
+          onClick={() => setIsPlaying((current) => !current)}
+        >
+          {isPlaying ? <MdPauseCircleOutline /> : <MdPlayCircleOutline />}
+        </button>
+        <button onClick={() => setIsMuted((current) => !current)}>
+          {isMuted ? <MdVolumeOff /> : <MdVolumeUp />}
+        </button>
+      </div>
+    );
+  }
 }

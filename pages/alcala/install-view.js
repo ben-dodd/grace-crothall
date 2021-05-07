@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import Gallery from "react-grid-gallery";
 import getScreenWidth from "../../lib/mediaQuery";
+import { rootPath } from "../../lib/text";
 
 export default function AlcalaInstallView() {
   const screenWidth = getScreenWidth();
@@ -13,12 +14,8 @@ export default function AlcalaInstallView() {
   else if (screenWidth === "lg") fullWidth = "1280px";
   let thumbnailHeights = [159, 159, 362, 159, 365, 362, 159, 150];
   const images = [...Array(8).keys()].map((num) => ({
-    src: `https://storage.googleapis.com/grace-crothall/images/alcala-install-view/${fullWidth}/${
-      num + 1
-    }.jpg`,
-    thumbnail: `https://storage.googleapis.com/grace-crothall/images/alcala-install-view/240px/${
-      num + 1
-    }.jpg`,
+    src: `${rootPath}/images/alcala-install-view/${fullWidth}/${num + 1}.jpg`,
+    thumbnail: `${rootPath}/images/alcala-install-view/240px/${num + 1}.jpg`,
     thumbnailHeight: thumbnailHeights[num],
     thumbnailWidth: 240,
   }));

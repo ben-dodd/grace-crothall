@@ -3,6 +3,7 @@ import Image from "next/image";
 import Show from "../components/show";
 import Layout from "../components/layout";
 import getScreenWidth from "../lib/mediaQuery";
+import { rootPath } from "../lib/text";
 
 export default function Home() {
   const screenWidth = getScreenWidth();
@@ -12,7 +13,7 @@ export default function Home() {
         <div />
         <div className="self-start">
           <Show
-            src="https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala.jpg"
+            src={`${rootPath}/images/title-images/600px/alcala.jpg`}
             height={481}
             title="Alcala"
             date="2019"
@@ -23,7 +24,7 @@ export default function Home() {
         <div />
         <div className="self-end">
           <Show
-            src="https://storage.googleapis.com/grace-crothall/images/title-images/600px/shelter-house.jpg"
+            src={`${rootPath}/images/title-images/600px/shelter-house.jpg`}
             title="Shelter House"
             date="2021"
             gallery="The Physics Room"

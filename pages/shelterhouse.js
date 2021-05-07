@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../components/layout";
 import Gallery from "react-grid-gallery";
 import getScreenWidth from "../lib/mediaQuery";
+import { rootPath } from "../lib/text";
 
 export default function ShelterHouse() {
   const screenWidth = getScreenWidth();
@@ -49,10 +50,10 @@ export default function ShelterHouse() {
     160,
   ];
   const images = [...Array(34).keys()].map((num) => ({
-    src: `https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/${fullWidth}/${
+    src: `${rootPath}/images/shelter-house-install-view/${fullWidth}/${
       num + 1
     }.jpg`,
-    thumbnail: `https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/240px/${
+    thumbnail: `${rootPath}/images/shelter-house-install-view/240px/${
       num + 1
     }.jpg`,
     thumbnailHeight: thumbnailHeights[num],

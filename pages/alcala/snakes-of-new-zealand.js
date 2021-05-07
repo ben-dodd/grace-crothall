@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import Gallery from "react-grid-gallery";
 import getScreenWidth from "../../lib/mediaQuery";
+import { rootPath } from "../../lib/text";
 
 export default function SnakesOfNewZealand() {
   const screenWidth = getScreenWidth();
@@ -12,10 +13,10 @@ export default function SnakesOfNewZealand() {
   else if (screenWidth === "md") fullWidth = "1024px";
   else if (screenWidth === "lg") fullWidth = "1280px";
   const images = [...Array(35).keys()].map((num) => ({
-    src: `https://storage.googleapis.com/grace-crothall/images/alcala-snakes-of-new-zealand/${fullWidth}/${
+    src: `${rootPath}/images/alcala-snakes-of-new-zealand/${fullWidth}/${
       num + 1
     }.jpg`,
-    thumbnail: `https://storage.googleapis.com/grace-crothall/images/alcala-snakes-of-new-zealand/240px/${
+    thumbnail: `${rootPath}/images/alcala-snakes-of-new-zealand/240px/${
       num + 1
     }.jpg`,
     thumbnailHeight: [20, 34].includes(num) ? 190 : 298,
