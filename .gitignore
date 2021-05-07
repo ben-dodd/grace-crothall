@@ -6,7 +6,7 @@
 .pnp.js
 
 #images
-/publichttps://storage.googleapis.com/grace-crothall/images/
+/public/images/
 /public/video/
 
 # testing
