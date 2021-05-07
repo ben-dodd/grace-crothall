@@ -11,7 +11,7 @@ export default function SnakesOfNewZealand() {
   else if (screenWidth === "sm") fullWidth = "768px";
   else if (screenWidth === "md") fullWidth = "1024px";
   else if (screenWidth === "lg") fullWidth = "1280px";
-  const images = [...Array(8).keys()].map((num) => ({
+  const images = [...Array(35).keys()].map((num) => ({
     src: `https://storage.googleapis.com/grace-crothall/images/alcala-snakes-of-new-zealand/${fullWidth}/${
       num + 1
     }.jpg`,
