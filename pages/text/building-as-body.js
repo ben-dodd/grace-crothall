@@ -19,7 +19,7 @@ export default function TextPage() {
           built by God, all of us built into it, a temple in which God is quite
           at home. (Ephesians 2:19-22)
         </p>
-        <p className="text-right pl-8 py-8 italic leading-loose">
+        <p className="text-right pl-2 py-8 italic leading-loose">
           Leaving the outside world behind, you enter through the doors into a
           vast, brightly lit auditorium in which a crowd of many bodies has
           gathered. You join them in the rows of tiered seating to face a wide
@@ -97,7 +97,7 @@ export default function TextPage() {
           orders genocides on non-believing nations and pronounces the death
           penalty on children who hit or curse their parents.
         </p>
-        <p className="text-right pl-8 py-8 italic leading-loose">
+        <p className="text-right pl-2 py-8 italic leading-loose">
           The children are following Christiana, this week’s Children’s Church
           assistant, out of the auditorium and into the cosy confines of an
           inner room. Today they are being told a story of Jonah and the Whale.
@@ -158,7 +158,7 @@ export default function TextPage() {
           good news story of a loving Father with a Biblical history of
           violence.
         </p>
-        <p className="text-right pl-8 py-8 italic leading-loose">
+        <p className="text-right pl-2 py-8 italic leading-loose">
           You are making your way out from the rows of seating to join the
           queues of people waiting to receive communion. You tear off some bread
           and place it on your tongue. Your teeth and saliva chew it, mash it

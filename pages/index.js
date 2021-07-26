@@ -9,7 +9,7 @@ export default function Home() {
   const screenWidth = getScreenWidth();
   return (
     <Layout>
-      <div className="grid sm:grid-cols-titlePage-sm md:grid-cols-titlePage-md lg:grid-cols-titlePage-lg flex-grow">
+      <div className="grid flex-grow sm:grid-cols-titlePage-sm md:grid-cols-titlePage-md lg:grid-cols-titlePage-lg">
         <div />
         <div className="self-start">
           <Show
@@ -30,7 +30,7 @@ export default function Home() {
             link="shelterhouse"
             height={401}
           />
-          </div>
+        </div>
         <div className="self-end">
           <Show
             src={`${rootPath}/images/title-images/600px/text.jpg`}

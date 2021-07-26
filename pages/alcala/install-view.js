@@ -18,7 +18,7 @@ export default function AlcalaInstallView() {
     thumbnail: `${rootPath}/images/alcala-install-view/240px/${num + 1}.jpg`,
     thumbnailHeight: thumbnailHeights[num],
     thumbnailWidth: 240,
-    alt: "Grace Crothall"
+    alt: "Grace Crothall",
   }));
 
   return (
