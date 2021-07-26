@@ -3,7 +3,8 @@ import Head from "next/head";
 export default function Meta() {
   return (
     <Head>
-      <link rel="icon" type="image/svg" href="./snake.svg" />
+      <title>Grace Crothall</title>
+      <link rel="icon" type="image/svg" href="/images/snake.svg" />
       <link rel="manifest" href="/site.webmanifest" />
       <meta name="title" content="Grace Crothall" />
       <meta name="description" content="Grace Crothall. Visual artist currently residing in Ōtautahi. b.1993."/>
