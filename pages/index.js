@@ -21,14 +21,23 @@ export default function Home() {
             link="alcala"
           />
         </div>
-        <div />
-        <div className="self-end">
+        <div className="self-center">
           <Show
             src={`${rootPath}/images/title-images/600px/shelter-house.jpg`}
             title="Shelter House"
             date="2021"
             gallery="The Physics Room"
             link="shelterhouse"
+            height={401}
+          />
+          </div>
+        <div className="self-end">
+          <Show
+            src={`${rootPath}/images/title-images/600px/text.jpg`}
+            title="Text"
+            date=""
+            gallery=""
+            link="text"
             height={401}
           />
         </div>

@@ -23,7 +23,7 @@ export default function AlcalaInstallView() {
 
   return (
     <Layout>
-      <div className="px-1 flex-grow lg:w-1/2">
+      <div className="px-1 flex-grow lg:w-1/2 mx-auto">
         <Gallery
           images={images}
           backdropClosesModal={true}
