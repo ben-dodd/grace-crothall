@@ -55,7 +55,7 @@ export default function TextPage() {
           unholy, insider and outsider, adult and child, and knowledge and
           innocence collide. Crothall deliberately brings these separations into
           a disquieting and playful entanglement. Visual, material, spatial and
-          auditory representations from PentecostalCharismatic culture are
+          auditory representations from Pentecostal-Charismatic culture are
           juxtaposed. As a former insider, Crothall describes her approach as
           that of an autopsy, aiming to reveal the hidden and contradictory
           inner life of the type of church to which she once belonged.
@@ -126,7 +126,7 @@ export default function TextPage() {
           ‘campuses’: alongside weekly services a range of other functions and
           ways to participate are offered, including bookshops, cafes,
           childcare, groups for teens and students and voluntary work. Within
-          the PentecostalCharismatic movement at large, once a person has
+          the Pentecostal-Charismatic movement at large, once a person has
           committed their life to God, faith becomes the lens through which
           everything is viewed, whether in work, at home, in relationships, at
           leisure, all aspects of life are brought within the purview of
@@ -248,16 +248,16 @@ export default function TextPage() {
           In ‘Shelter House’ we become the church body as we enter in to the
           quasi-church site that Crothall has created. She makes us a stand in
           for the congregant, a temporary part of the crowd of believers.
-          However, Crothall subverts the norms of PentecostalCharismatic culture
-          by literally depicting the interior of the body, referencing a messy
-          and disturbing visceral world, a place where things are not static or
-          fixed but in a process of becoming, transmuting, forming. Through
-          foregrounding the gut in her colonoscopy images, through imagining the
-          Children’s Church within the belly of the whale, Crothall’s work
-          reframes the church, inverting it, re-thinking it as a site that
-          reflects life in all its fearful complexity. In placing the viewer as
-          a stand in for the believer within this site of uncertainty, of
-          change, of liminality, we are offered the opportunity to be open to
+          However, Crothall subverts the norms of Pentecostal-Charismatic
+          culture by literally depicting the interior of the body, referencing a
+          messy and disturbing visceral world, a place where things are not
+          static or fixed but in a process of becoming, transmuting, forming.
+          Through foregrounding the gut in her colonoscopy images, through
+          imagining the Children’s Church within the belly of the whale,
+          Crothall’s work reframes the church, inverting it, re-thinking it as a
+          site that reflects life in all its fearful complexity. In placing the
+          viewer as a stand in for the believer within this site of uncertainty,
+          of change, of liminality, we are offered the opportunity to be open to
           difference, to face the realities of our embodied experience, to be
           inclusive rather than exclusive. This forms a provocation not only for
           those within the comforting confines of Pentecostal-Charismatic
