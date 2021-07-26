@@ -18,11 +18,12 @@ export default function AlcalaInstallView() {
     thumbnail: `${rootPath}/images/alcala-install-view/240px/${num + 1}.jpg`,
     thumbnailHeight: thumbnailHeights[num],
     thumbnailWidth: 240,
+    alt: "Grace Crothall"
   }));
 
   return (
     <Layout>
-      <div className="px-1 flex-grow">
+      <div className="px-1 flex-grow lg:w-1/2">
         <Gallery
           images={images}
           backdropClosesModal={true}
