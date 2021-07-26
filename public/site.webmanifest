@@ -3,7 +3,7 @@
   "short_name": "Grace Crothall",
   "icons": [
     {
-      "src": "/snake.svg",
+      "src": "/images/snake.svg",
       "sizes": "192x192",
       "type": "image/svg"
     }
