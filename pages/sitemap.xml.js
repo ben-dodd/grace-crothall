@@ -1,31 +1,54 @@
-const generateSitemap = (data, origin) => {
-  let xml = "";
+import React from "react";
+import fs from "fs";
 
-  data.pages.map((page) => {
-    xml += `<url>
-      <loc>${origin + page.location}</loc>
-      <lastmod>${page.lastMod}</lastmod>
-    </url>`;
-  });
+const Sitemap = () => {};
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
+export const getServerSideProps = ({ res }) => {
+  const baseUrl = {
+    development: "http://localhost:5000",
+    production: "https://www.gracecrothall.com",
+  }[process.env.NODE_ENV];
+
+  const staticPages = fs
+    .readdirSync("pages")
+    .filter((staticPage) => {
+      return ![
+        "_app.js",
+        "_document.js",
+        "_error.js",
+        "sitemap.xml.js",
+      ].includes(staticPage);
+    })
+    .map((staticPagePath) => {
+      return `${baseUrl}/${staticPagePath}`;
+    });
+
+  console.log(staticPages);
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      ${xml}
-    </urlset>`;
-};
+      ${staticPages
+        .map((url) => {
+          return `
+            <url>
+              <loc>${url}</loc>
+              <lastmod>${new Date().toISOString()}</lastmod>
+              <changefreq>monthly</changefreq>
+              <priority>1.0</priority>
+            </url>
+          `;
+        })
+        .join("")}
+    </urlset>
+  `;
 
-export async function getServerSideProps({ res }) {
-  const data =
-    /* do some async fetching here */
-
-    res.setHeader("Content-Type", "text/xml");
-  res.write(generateSitemap(data, "http://yoursite.com"));
+  res.setHeader("Content-Type", "text/xml");
+  res.write(sitemap);
   res.end();
 
   return {
     props: {},
   };
-}
+};
 
-const SitemapIndex = () => null;
-export default SitemapIndex;
+export default Sitemap;
