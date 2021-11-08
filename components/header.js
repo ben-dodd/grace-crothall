@@ -43,7 +43,7 @@ export default function Header() {
     <div className="text-4xl mx-auto sm:mx-0 font-bold text-black p-4 font-sans">
       <div className="lg:flex">
         <a href="/" className="hover:underline">
-          GRACE CROTHALL{" "}
+          <h1>GRACE CROTHALL </h1>
         </a>{" "}
         {breadcrumbs.map((breadcrumb, i) => (
           <div key={breadcrumb.href} className="flex items-center">

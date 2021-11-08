@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import Layout from "../../components/layout";
 import ReactPlayer from "react-player";

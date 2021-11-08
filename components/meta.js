@@ -7,12 +7,21 @@ export default function Meta() {
       <link rel="icon" type="image/svg" href="images/snake.svg" />
       <link rel="manifest" href="/site.webmanifest" />
       <meta name="title" content="Grace Crothall" />
-      <meta name="description" content="Grace Crothall. Visual artist currently residing in Ōtautahi. b.1993."/>
-      <meta property="og:title" content="Grace Crothall"/>
-      <meta property="og:description" content="Grace Crothall. Visual artist currently residing in Ōtautahi. b.1993."/>
-      <meta name="keywords" content="grace crothall,christchurch,artist,heat pits,alcala,snakes of new zealand,mindful marinade,painter" />
-      <meta property="og:url" content="https://www.gracecrothall.com"/>
-      <meta property="og:type" content="website"/>
+      <meta
+        name="description"
+        content="Grace Crothall. Visual artist currently residing in Ōtautahi. b.1993."
+      />
+      <meta property="og:title" content="Grace Crothall" />
+      <meta
+        property="og:description"
+        content="Grace Crothall. Visual artist currently residing in Ōtautahi. b.1993."
+      />
+      <meta
+        name="keywords"
+        content="grace crothall,art,physics room,rm gallery,christchurch,artist,heat pits,alcala,snakes of new zealand,mindful marinade,painter"
+      />
+      <meta property="og:url" content="https://www.gracecrothall.com" />
+      <meta property="og:type" content="website" />
     </Head>
   );
 }

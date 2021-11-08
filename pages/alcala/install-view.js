@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import Layout from "../../components/layout";
-import Gallery from "react-grid-gallery";
+import Gallery from "../../components/gallery";
+// import Gallery from "react-grid-gallery";
 import getScreenWidth from "../../lib/mediaQuery";
 import { rootPath } from "../../lib/text";
 
@@ -24,13 +24,14 @@ export default function AlcalaInstallView() {
   return (
     <Layout>
       <div className="px-1 flex-grow lg:w-1/2 mx-auto">
-        <Gallery
+        {/*<Gallery
           images={images}
           backdropClosesModal={true}
           lightboxWidth={1920}
           margin={8}
           rowHeight="120px"
-        />
+        />*/}
+        <Gallery images={images} alt={"Grace Crothall - Alcala install view"} />
       </div>
     </Layout>
   );

@@ -17,6 +17,7 @@ export default function Show({
       <a aria-label={title}>
         <div className="py-8 px-16">
           <Image
+            alt={`Grace Crothall - ${title}`}
             src={src}
             width={600}
             height={height}

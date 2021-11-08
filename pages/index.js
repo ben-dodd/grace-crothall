@@ -1,6 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
 import Show from "../components/show";
+import Link from "next/Link";
 import Layout from "../components/layout";
 import getScreenWidth from "../lib/mediaQuery";
 import { rootPath } from "../lib/text";
@@ -9,6 +8,13 @@ export default function Home() {
   const screenWidth = getScreenWidth();
   return (
     <Layout>
+      <div className="pl-4">
+        <Link as={`/text`} href={`/text`}>
+          <a aria-label={"Grace Crothall - Text"}>
+            <div className="text-2xl underline hover:text-gray-600">Text</div>
+          </a>
+        </Link>
+      </div>
       <div className="grid flex-grow sm:grid-cols-titlePage-sm md:grid-cols-titlePage-md lg:grid-cols-titlePage-lg">
         <div />
         <div className="self-start">
@@ -21,17 +27,17 @@ export default function Home() {
             link="alcala"
           />
         </div>
-        <div className="self-center">
+        <div className="self-end">
           <Show
             src={`${rootPath}/images/title-images/600px/shelter-house.jpg`}
             title="Shelter House"
             date="2021"
             gallery="The Physics Room"
-            link="shelterhouse"
+            link="shelter-house"
             height={401}
           />
         </div>
-        <div className="self-end">
+        {/*<div className="self-end">
           <Show
             src={`${rootPath}/images/title-images/600px/text.jpg`}
             title="Text"
@@ -40,7 +46,7 @@ export default function Home() {
             link="text"
             height={401}
           />
-        </div>
+        </div>*/}
       </div>
     </Layout>
   );
