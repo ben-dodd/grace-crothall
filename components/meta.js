@@ -4,7 +4,7 @@ export default function Meta() {
   return (
     <Head>
       <title>Grace Crothall</title>
-      <link rel="icon" type="image/svg" href="images/snake.svg" />
+      <link rel="shortcut icon" href="/images/snake.ico" />
       <link rel="manifest" href="/site.webmanifest" />
       <meta name="title" content="Grace Crothall" />
       <meta
