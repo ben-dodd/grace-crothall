@@ -2,16 +2,16 @@ import Link from "next/link";
 import Layout from "../components/layout";
 import Gallery from "../components/gallery";
 // import Gallery from "react-grid-gallery";
-import getScreenWidth from "../lib/mediaQuery";
+// import getScreenWidth from "../lib/mediaQuery";
 import { rootPath } from "../lib/text";
 
 export default function ShelterHouse() {
-  const screenWidth = getScreenWidth();
+  // const screenWidth = getScreenWidth();
   let fullWidth = "1920px";
-  if (screenWidth === "xs") fullWidth = "640px";
-  else if (screenWidth === "sm") fullWidth = "768px";
-  else if (screenWidth === "md") fullWidth = "1024px";
-  else if (screenWidth === "lg") fullWidth = "1280px";
+  // if (screenWidth === "xs") fullWidth = "640px";
+  // else if (screenWidth === "sm") fullWidth = "768px";
+  // else if (screenWidth === "md") fullWidth = "1024px";
+  // else if (screenWidth === "lg") fullWidth = "1280px";
   let thumbnailHeights = [
     160,
     360,
