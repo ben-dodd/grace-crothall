@@ -10,7 +10,7 @@ export const getServerSideProps = ({ res }) => {
       xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
       <loc>https://www.gracecrothall.com/index</loc>
-      <lastmod>2021-11-08T12:09:30.532Z</lastmod>
+      <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
       <image:image>
@@ -24,7 +24,7 @@ export const getServerSideProps = ({ res }) => {
     </url>
     <url>
       <loc>https://www.gracecrothall.com/alcala</loc>
-      <lastmod>2021-11-08T12:09:30.532Z</lastmod>
+      <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <image:image>
