@@ -14,11 +14,11 @@ export const getServerSideProps = ({ res }) => {
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
       <image:image>
-        <image:loc>https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Ftitle-images%2F600px%2Falcala.jpg&amp;w=1200&amp;q=75</image:loc>
+        <image:loc>https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala.jpg</image:loc>
         <image:title>Grace Crothall - Alcala</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Ftitle-images%2F600px%2Fshelter-house.jpg&amp;w=1200&amp;q=75</image:loc>
+        <image:loc>https://storage.googleapis.com/grace-crothall/images/title-images/600px/shelter-house.jpg</image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
     </url>
@@ -29,13 +29,13 @@ export const getServerSideProps = ({ res }) => {
       <priority>0.8</priority>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Ftitle-images%2F600px%2Falcala-install-view.jpg&amp;w=1200&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala-install-view.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Ftitle-images%2F600px%2Falcala-bealey-sloughing.jpg&amp;w=828&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala-bealey-sloughing.jpg
         </image:loc>
         <image:title>Grace Crothall - Bealey Sloughing moving image</image:title>
       </image:image>
@@ -47,205 +47,205 @@ export const getServerSideProps = ({ res }) => {
       <priority>0.8</priority>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F1.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/1.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F2.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/2.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F3.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/3.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F4.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/4.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F5.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/5.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F6.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/6.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F7.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/7.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F8.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/8.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F9.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/9.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F10.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/10.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F11.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/11.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F12.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/12.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F13.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/13.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F14.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/14.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F15.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/15.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F16.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/16.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F17.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/17.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F18.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/18.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F19.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/19.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F20.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/20.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F21.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/21.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F22.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/22.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F23.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/23.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F24.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/24.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F25.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/25.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F26.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/26.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F27.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/27.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F28.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/28.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F29.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/29.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F30.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/30.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F31.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/31.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F32.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/32.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F33.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/33.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Fshelter-house-install-view%2F1920px%2F34.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/shelter-house-install-view/1920px/34.jpg
         </image:loc>
         <image:title>Grace Crothall - Shelter House</image:title>
       </image:image>
@@ -277,7 +277,7 @@ export const getServerSideProps = ({ res }) => {
       <priority>0.5</priority>
      <video:video>
        <video:thumbnail_loc>
-         https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Ftitle-images%2F600px%2Falcala-bealey-sloughing.jpg&amp;w=828&amp;q=75
+         https://storage.googleapis.com/grace-crothall/images/title-images/600px/alcala-bealey-sloughing.jpg
        </video:thumbnail_loc>
        <video:title>Grace Crothall - Bealey Sloughing moving image</video:title>
        <video:description>CRT video installation</video:description>
@@ -296,49 +296,49 @@ export const getServerSideProps = ({ res }) => {
       <priority>0.5</priority>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Falcala-install-view%2F1920px%2F1.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/alcala-install-view/1920px/1.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Falcala-install-view%2F1920px%2F2.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/alcala-install-view/1920px/2.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Falcala-install-view%2F1920px%2F3.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/alcala-install-view/1920px/3.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Falcala-install-view%2F1920px%2F4.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/alcala-install-view/1920px/4.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Falcala-install-view%2F1920px%2F5.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/alcala-install-view/1920px/5.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Falcala-install-view%2F1920px%2F6.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/alcala-install-view/1920px/6.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Falcala-install-view%2F1920px%2F7.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/alcala-install-view/1920px/7.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
       <image:image>
         <image:loc>
-          https://www.gracecrothall.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgrace-crothall%2Fimages%2Falcala-install-view%2F1920px%2F8.jpg&amp;w=3840&amp;q=75
+          https://storage.googleapis.com/grace-crothall/images/alcala-install-view/1920px/8.jpg
         </image:loc>
         <image:title>Grace Crothall - Alcala install view</image:title>
       </image:image>
