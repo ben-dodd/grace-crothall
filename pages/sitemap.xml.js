@@ -9,7 +9,7 @@ export const getServerSideProps = ({ res }) => {
       xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
       xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-      <loc>https://www.gracecrothall.com/index.js</loc>
+      <loc>https://www.gracecrothall.com/index</loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
@@ -23,7 +23,7 @@ export const getServerSideProps = ({ res }) => {
       </image:image>
     </url>
     <url>
-      <loc>https://www.gracecrothall.com/alcala.js</loc>
+      <loc>https://www.gracecrothall.com/alcala</loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -41,7 +41,7 @@ export const getServerSideProps = ({ res }) => {
       </image:image>
     </url>
     <url>
-      <loc>https://www.gracecrothall.com/shelterhouse.js</loc>
+      <loc>https://www.gracecrothall.com/shelterhouse</loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -251,27 +251,27 @@ export const getServerSideProps = ({ res }) => {
       </image:image>
     </url>
     <url>
-      <loc>https://www.gracecrothall.com/text/index.js</loc>
+      <loc>https://www.gracecrothall.com/text</loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://www.gracecrothall.com/text/building-as-body.js</loc>
+      <loc>https://www.gracecrothall.com/text/building-as-body</loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
       <loc>
-        https://www.gracecrothall.com/text/the-milk-carton-kids-of-the-80s.js
+        https://www.gracecrothall.com/text/the-milk-carton-kids-of-the-80s
       </loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
-      <loc>https://www.gracecrothall.com/alcala/bealey-sloughing.js</loc>
+      <loc>https://www.gracecrothall.com/alcala/bealey-sloughing</loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -290,7 +290,7 @@ export const getServerSideProps = ({ res }) => {
      </video:video>
     </url>
     <url>
-      <loc>https://www.gracecrothall.com/alcala/install-view.js</loc>
+      <loc>https://www.gracecrothall.com/alcala/install-view</loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
