@@ -41,7 +41,7 @@ export const getServerSideProps = ({ res }) => {
       </image:image>
     </url>
     <url>
-      <loc>https://www.gracecrothall.com/shelterhouse</loc>
+      <loc>https://www.gracecrothall.com/shelter-house</loc>
       <lastmod>2021-11-08T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
