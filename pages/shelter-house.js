@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/layout";
 import Gallery from "../components/gallery";
-// import Gallery from "react-grid-gallery";
 // import getScreenWidth from "../lib/mediaQuery";
 import { rootPath } from "../lib/text";
 
@@ -63,13 +62,6 @@ export default function ShelterHouse() {
   return (
     <Layout>
       <div className="px-1 flex-grow">
-        {/*<Gallery
-          images={images}
-          backdropClosesModal={true}
-          lightboxWidth={1920}
-          margin={1}
-          rowHeight="120px"
-        />*/}
         <Gallery images={images} alt={"Grace Crothall - Shelter House"} />
       </div>
     </Layout>

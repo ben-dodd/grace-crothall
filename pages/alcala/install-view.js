@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Layout from "../../components/layout";
 import Gallery from "../../components/gallery";
-// import Gallery from "react-grid-gallery";
 // import getScreenWidth from "../../lib/mediaQuery";
 import { rootPath } from "../../lib/text";
 
@@ -14,7 +13,7 @@ export default function AlcalaInstallView() {
   // else if (screenWidth === "lg") fullWidth = "1280px";
   let thumbnailHeights = [159, 159, 362, 159, 365, 362, 159, 150];
   const images = [...Array(8).keys()].map((num) => ({
-    src: `${rootPath}/images/alcala-install-view/${fullWidth}/${num + 1}.jpg`,
+    src: `${rootPath}/images/alcala-install-view/1920px/${num + 1}.jpg`,
     thumbnail: `${rootPath}/images/alcala-install-view/240px/${num + 1}.jpg`,
     thumbnailHeight: thumbnailHeights[num],
     thumbnailWidth: 240,
@@ -24,13 +23,6 @@ export default function AlcalaInstallView() {
   return (
     <Layout>
       <div className="px-1 flex-grow lg:w-1/2 mx-auto">
-        {/*<Gallery
-          images={images}
-          backdropClosesModal={true}
-          lightboxWidth={1920}
-          margin={8}
-          rowHeight="120px"
-        />*/}
         <Gallery images={images} alt={"Grace Crothall - Alcala install view"} />
       </div>
     </Layout>
