@@ -42,7 +42,7 @@ export const getServerSideProps = ({ res }) => {
     </url>
     <url>
       <loc>https://www.gracecrothall.com/shelter-house</loc>
-      <lastmod>2021-11-08T12:09:30.532Z</lastmod>
+      <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <image:image>
@@ -252,13 +252,13 @@ export const getServerSideProps = ({ res }) => {
     </url>
     <url>
       <loc>https://www.gracecrothall.com/text</loc>
-      <lastmod>2021-11-08T12:09:30.532Z</lastmod>
+      <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
       <loc>https://www.gracecrothall.com/text/building-as-body</loc>
-      <lastmod>2021-11-08T12:09:30.532Z</lastmod>
+      <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -266,13 +266,13 @@ export const getServerSideProps = ({ res }) => {
       <loc>
         https://www.gracecrothall.com/text/the-milk-carton-kids-of-the-80s
       </loc>
-      <lastmod>2021-11-08T12:09:30.532Z</lastmod>
+      <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
       <loc>https://www.gracecrothall.com/alcala/bealey-sloughing</loc>
-      <lastmod>2021-11-08T12:09:30.532Z</lastmod>
+      <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
      <video:video>
@@ -291,7 +291,7 @@ export const getServerSideProps = ({ res }) => {
     </url>
     <url>
       <loc>https://www.gracecrothall.com/alcala/install-view</loc>
-      <lastmod>2021-11-08T12:09:30.532Z</lastmod>
+      <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
       <image:image>
