@@ -9,7 +9,7 @@ export const getServerSideProps = ({ res }) => {
       xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
       xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-      <loc>https://www.gracecrothall.com/index</loc>
+      <loc>https://www.gracecrothall.com</loc>
       <lastmod>2021-11-11T12:09:30.532Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
