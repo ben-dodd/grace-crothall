@@ -1,6 +1,5 @@
 import TextLayout from "../../components/text-layout";
 import Layout from "../../components/layout";
-import { rootPath } from "../../lib/text";
 
 export default function TextPage() {
   return (
@@ -8,7 +7,7 @@ export default function TextPage() {
       <TextLayout
         title="Building As Body"
         author="Kate Pickering"
-        pdfLink={`${rootPath}/pdf/Building-As-Body-Kate-Pickering.pdf`}
+        pdfLink={`/pdf/Building-as-body-Kate-Pickering.pdf`}
       >
         <p className="border-t-2 border-b-2 py-8 px-4 text-sm font-bold">
           God is building a home. He’s using us all—irrespective of how we got

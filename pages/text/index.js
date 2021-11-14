@@ -6,6 +6,11 @@ export default function TextPage() {
     <Layout>
       <div className="flex-grow">
         <Text
+          title="Pit-Vipers (The seedy underbelly of Crothall's Heat Pits)"
+          author="Becky Richards"
+          link="pit-vipers"
+        />
+        <Text
           title="The Milk Carton Kids of the 80s (Vital Significance in Panic Domesticated)"
           author="Zoe Crook"
           link="the-milk-carton-kids-of-the-80s"
