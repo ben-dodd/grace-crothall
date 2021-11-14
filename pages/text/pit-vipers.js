@@ -19,7 +19,7 @@ export default function TextPage() {
           <br />
           Brilliant, curious colors"
         </div>
-        <div className="text-right text-xs pb-8">
+        <div className="text-right text-xs pb-8 pt-2">
           Fragments from script,
           <br />
           The Chocolate Room, opening shot
