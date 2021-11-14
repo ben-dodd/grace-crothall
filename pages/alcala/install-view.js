@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Layout from "../../components/layout";
 import Gallery from "../../components/gallery";
 import getScreenWidth from "../../lib/mediaQuery";
