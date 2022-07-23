@@ -20,6 +20,7 @@ export default function Show({
             width={600}
             height={height}
             className="hover:opacity-80"
+            loader={({ src }) => src}
           />
           <div className="text-4xl font-bold text-black hover:underline">
             {title}

@@ -17,6 +17,7 @@ export default function InstallView() {
                 src={`${rootPath}/images/title-images/600px/alcala-install-view.jpg`}
                 height="397px"
                 width="600px"
+                loader={({ src }) => src}
               />
               <div className="text-xl">
                 <i>Alcala</i> install view
@@ -55,6 +56,7 @@ export default function InstallView() {
                 src={`${rootPath}/images/title-images/600px/alcala-bealey-sloughing.jpg`}
                 height="360px"
                 width="400px"
+                loader={({ src }) => src}
               />
               <div className="text-xl">
                 <i>Bealey Sloughing</i> moving image

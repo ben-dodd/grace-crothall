@@ -10,6 +10,7 @@ export default function Gallery({ images, alt }) {
           src={image?.src}
           height={`${image?.thumbnailHeight * 8}px`}
           width="1920px"
+          loader={({ src }) => src}
         />
       ))}
     </div>
