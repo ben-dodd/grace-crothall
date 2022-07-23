@@ -1,7 +1,12 @@
 module.exports = {
   images: {
     domains: ['storage.googleapis.com'],
-    unoptimized: true,
+    loader: ({ src }) => src,
+  },
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
   },
   webpack: (config, { isServer }) => {
     // Fixes npm packages that depend on `fs` module

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { loaderProp } from '../lib/utils'
 
 export default function Gallery({ images, alt }) {
   return (
@@ -11,7 +10,6 @@ export default function Gallery({ images, alt }) {
           src={image?.src}
           height={`${image?.thumbnailHeight * 8}px`}
           width="1920px"
-          loader={loaderProp}
         />
       ))}
     </div>
