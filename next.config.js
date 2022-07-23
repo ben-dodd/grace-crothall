@@ -1,7 +1,7 @@
 module.exports = {
   images: {
     domains: ['storage.googleapis.com'],
-    loader: ({ src }) => src,
+    // loader: ({ src }) => src,
   },
   experimental: {
     images: {
