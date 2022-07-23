@@ -1,5 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link'
+import { loaderProp } from '../lib/utils'
 
 export default function Show({
   title,
@@ -20,6 +21,7 @@ export default function Show({
             width={600}
             height={height}
             className="hover:opacity-80"
+            loader={loaderProp}
           />
           <div className="text-4xl font-bold text-black hover:underline">
             {title}
@@ -29,5 +31,5 @@ export default function Show({
         </div>
       </a>
     </Link>
-  );
+  )
 }

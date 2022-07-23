@@ -1,7 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
-import Layout from "../components/layout";
-import { rootPath } from "../lib/text";
+import Image from 'next/image'
+import Link from 'next/link'
+import Layout from '../components/layout'
+import { rootPath } from '../lib/text'
+import { loaderProp } from '../lib/utils'
 
 export default function InstallView() {
   return (
@@ -17,6 +18,7 @@ export default function InstallView() {
                 src={`${rootPath}/images/title-images/600px/alcala-install-view.jpg`}
                 height="397px"
                 width="600px"
+                loader={loaderProp}
               />
               <div className="text-xl">
                 <i>Alcala</i> install view
@@ -64,5 +66,5 @@ export default function InstallView() {
         </div>
       </div>
     </Layout>
-  );
+  )
 }

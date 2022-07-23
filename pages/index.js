@@ -1,16 +1,14 @@
-import Show from "../components/show";
-import Link from "next/link";
-import Layout from "../components/layout";
-import getScreenWidth from "../lib/mediaQuery";
-import { rootPath } from "../lib/text";
+import Link from 'next/link'
+import Layout from '../components/layout'
+import Show from '../components/show'
+import { rootPath } from '../lib/text'
 
 export default function Home() {
-  const screenWidth = getScreenWidth();
   return (
     <Layout>
       <div className="pl-4">
         <Link as={`/text`} href={`/text`}>
-          <a aria-label={"Grace Crothall - Text"}>
+          <a aria-label={'Grace Crothall - Text'}>
             <div className="text-2xl underline hover:text-gray-600">Text</div>
           </a>
         </Link>
@@ -49,5 +47,5 @@ export default function Home() {
         </div>*/}
       </div>
     </Layout>
-  );
+  )
 }
