@@ -7,10 +7,8 @@ export default function Home() {
   return (
     <Layout>
       <div className="pl-4">
-        <Link as={`/text`} href={`/text`}>
-          <a aria-label={'Grace Crothall - Text'}>
-            <div className="text-2xl underline hover:text-gray-600">Text</div>
-          </a>
+        <Link as={`/text`} href={`/text`} aria-label={'Grace Crothall - Text'}>
+          <div className="text-2xl underline hover:text-gray-600">Text</div>
         </Link>
       </div>
       <div className="grid flex-grow sm:grid-cols-titlePage-sm md:grid-cols-titlePage-md lg:grid-cols-titlePage-lg">

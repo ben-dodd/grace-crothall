@@ -1,42 +1,42 @@
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
-import { titleCase } from "../lib/text";
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
+import { titleCase } from '../lib/text'
 
-import { MdChevronRight } from "react-icons/md";
+import { MdChevronRight } from 'react-icons/md'
 
 const convertBreadcrumb = (string) => {
   return titleCase(
     string
-      .replace(/-/g, " ")
-      .replace(/oe/g, "ö")
-      .replace(/ae/g, "ä")
-      .replace(/ue/g, "ü")
-  );
-};
+      .replace(/-/g, ' ')
+      .replace(/oe/g, 'ö')
+      .replace(/ae/g, 'ä')
+      .replace(/ue/g, 'ü')
+  )
+}
 
 export default function Header() {
-  const router = useRouter();
-  const [breadcrumbs, setBreadcrumbs] = useState(null);
+  const router = useRouter()
+  const [breadcrumbs, setBreadcrumbs] = useState(null)
 
   useEffect(() => {
     if (router) {
-      const linkPath = router.asPath.split("/");
-      linkPath.shift();
+      const linkPath = router.asPath.split('/')
+      linkPath.shift()
 
       const pathArray = linkPath.map((path, i) => {
         return {
           breadcrumb: path,
-          href: "/" + linkPath.slice(0, i + 1).join("/"),
-        };
-      });
+          href: '/' + linkPath.slice(0, i + 1).join('/'),
+        }
+      })
 
-      setBreadcrumbs(pathArray);
+      setBreadcrumbs(pathArray)
     }
-  }, [router]);
+  }, [router])
 
   if (!breadcrumbs) {
-    return null;
+    return null
   }
 
   return (
@@ -44,18 +44,16 @@ export default function Header() {
       <div className="lg:flex">
         <a href="/" className="hover:underline">
           <h1>GRACE CROTHALL </h1>
-        </a>{" "}
+        </a>{' '}
         {breadcrumbs.map((breadcrumb, i) => (
           <div key={breadcrumb.href} className="flex items-center">
             {breadcrumb.breadcrumb && <MdChevronRight />}
-            <Link href={breadcrumb.href}>
-              <a className="uppercase hover:underline">
-                {convertBreadcrumb(breadcrumb.breadcrumb)}
-              </a>
-            </Link>{" "}
+            <Link href={breadcrumb.href} className="uppercase hover:underline">
+              {convertBreadcrumb(breadcrumb.breadcrumb)}
+            </Link>{' '}
           </div>
         ))}
       </div>
     </div>
-  );
+  )
 }

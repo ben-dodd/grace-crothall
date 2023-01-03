@@ -9,20 +9,22 @@ export default function InstallView() {
       <div className="p-4 grid md:grid-cols-alcala-md lg:grid-cols-alcala-lg flex-grow">
         <div />
         <div className="p-4">
-          <Link as={`/alcala/install-view`} href={`/alcala/install-view`}>
-            <a aria-label="Alcala Install View">
-              <Image
-                alt="Grace Crothall - Alcala install view"
-                className="hover:opacity-80"
-                src={`${rootPath}/images/title-images/600px/alcala-install-view.jpg`}
-                height="397px"
-                width="600px"
-                loader={({ src }) => src}
-              />
-              <div className="text-xl">
-                <i>Alcala</i> install view
-              </div>
-            </a>
+          <Link
+            as={`/alcala/install-view`}
+            href={`/alcala/install-view`}
+            aria-label="Alcala Install View"
+          >
+            <Image
+              alt="Grace Crothall - Alcala install view"
+              className="hover:opacity-80"
+              src={`${rootPath}/images/title-images/600px/alcala-install-view.jpg`}
+              height="397px"
+              width="600px"
+              loader={({ src }) => src}
+            />
+            <div className="text-xl">
+              <i>Alcala</i> install view
+            </div>
           </Link>
         </div>
         {/*<div className="self-center p-4">
@@ -48,20 +50,19 @@ export default function InstallView() {
           <Link
             as={`/alcala/bealey-sloughing`}
             href={`/alcala/bealey-sloughing`}
+            aria-label="Bealey Sloughing moving image"
           >
-            <a aria-label="Bealey Sloughing moving image">
-              <Image
-                alt="Grace Crothall - Bealey Sloughing moving image"
-                className="hover:opacity-80"
-                src={`${rootPath}/images/title-images/600px/alcala-bealey-sloughing.jpg`}
-                height="360px"
-                width="400px"
-                loader={({ src }) => src}
-              />
-              <div className="text-xl">
-                <i>Bealey Sloughing</i> moving image
-              </div>
-            </a>
+            <Image
+              alt="Grace Crothall - Bealey Sloughing moving image"
+              className="hover:opacity-80"
+              src={`${rootPath}/images/title-images/600px/alcala-bealey-sloughing.jpg`}
+              height="360px"
+              width="400px"
+              loader={({ src }) => src}
+            />
+            <div className="text-xl">
+              <i>Bealey Sloughing</i> moving image
+            </div>
           </Link>
         </div>
       </div>
