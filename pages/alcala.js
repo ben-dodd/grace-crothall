@@ -18,8 +18,8 @@ export default function InstallView() {
               alt="Grace Crothall - Alcala install view"
               className="hover:opacity-80"
               src={`${rootPath}/images/title-images/600px/alcala-install-view.jpg`}
-              height="397px"
-              width="600px"
+              height={397}
+              width={600}
               loader={({ src }) => src}
             />
             <div className="text-xl">
@@ -56,8 +56,8 @@ export default function InstallView() {
               alt="Grace Crothall - Bealey Sloughing moving image"
               className="hover:opacity-80"
               src={`${rootPath}/images/title-images/600px/alcala-bealey-sloughing.jpg`}
-              height="360px"
-              width="400px"
+              height={360}
+              width={400}
               loader={({ src }) => src}
             />
             <div className="text-xl">

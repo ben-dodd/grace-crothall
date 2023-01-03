@@ -1,26 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 @tailwind base;
-
-/* Write your own custom base styles here */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-@import url("https://fonts.googleapis.com/css?family=Amiri");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=PT+Sans");
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
-/* Start purging... */
 @tailwind components;
-/* Stop purging. */
-
-/* Write you own custom component styles here */
-
-/* Start purging... */
 @tailwind utilities;
-/* Stop purging. */
-
-/* Your own custom utilities */
 
 body {
-  font-family: "EB Garamond", serif;
-  background-color: "#fbfbf6";
+  font-family: 'EB Garamond', serif;
+  background-color: '#fbfbf6';
   @apply text-gray-800 antialiased;
 }
 
@@ -33,5 +20,5 @@ p {
 }
 
 .serif {
-  font-family: "Amiri";
+  font-family: 'Amiri';
 }

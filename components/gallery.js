@@ -8,8 +8,8 @@ export default function Gallery({ images, alt }) {
           key={i}
           alt={alt}
           src={image?.src}
-          height={`${image?.thumbnailHeight * 8}px`}
-          width="1920px"
+          height={image?.thumbnailHeight * 8}
+          width={1920}
           loader={({ src }) => src}
         />
       ))}
