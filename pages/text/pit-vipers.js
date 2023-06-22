@@ -1,5 +1,5 @@
-import TextLayout from "../../components/text-layout";
-import Layout from "../../components/layout";
+import TextLayout from '../../components/text-layout'
+import Layout from '../../components/layout'
 
 export default function TextPage() {
   return (
@@ -111,7 +111,7 @@ export default function TextPage() {
           Crothall’s imagery of sparse, constrained interiors builds a framework
           of strict control. <i>Heat Pits</i> situates this claustrophobic
           oppression within an educational context. The exhibition design plays
-          on dated classroom formats, siphoning inspiration from Stuart’s{" "}
+          on dated classroom formats, siphoning inspiration from Stuart’s{' '}
           <i>Willy Wonka</i>. Remember the weasel-faced teacher, lab-coat clad,
           glowering down at his pews of young charges? Chalk in hand, he is all
           knowing. The chalkboard itself takes on a domineering persona here –
@@ -136,7 +136,7 @@ export default function TextPage() {
           At the dark heart of <i>Heat Pits</i> is a slithering presence,
           penetrating the machine of stale control, leaving traces of its
           progress. Offcast disguises, outgrown by the fiend. A snake will shed
-          its skin periodically throughout its lifetime; a process also known as{" "}
+          its skin periodically throughout its lifetime; a process also known as{' '}
           <i>molting</i>, or <i>sloughing</i>. An internal layer of the old skin
           liquefies, before splitting close to the mouth of the snake. The
           entire skin will often come away in a single piece, rolling off the
@@ -148,7 +148,7 @@ export default function TextPage() {
         </p>
 
         <p>
-          Snakes exhibit several distinct forms of movement; <i>sidewinding</i>{" "}
+          Snakes exhibit several distinct forms of movement; <i>sidewinding</i>{' '}
           refers to a strange, rolling maneuver used to travel across smooth
           surfaces that offer no traction. In the context of Crothall’s work,
           sidewinding might take on a metaphorical significance; not even the
@@ -178,7 +178,7 @@ export default function TextPage() {
           vocabulary. A preoccupation with texture and surface has emerged, a
           drive towards the darker side of nostalgia, and an interest in
           localised specificity – she often references growing up in
-          Christchurch, during the 90’s. In May 2019 Crothall presented{" "}
+          Christchurch, during the 90’s. In May 2019 Crothall presented{' '}
           <i>Alcala</i>; an exhibition that broke strange new ground. Presented
           in a unit at the Alcala motor lodge, 100 Sherborne Street,
           Christchurch; the artist’s body of work slipped between cream walls,
@@ -186,9 +186,9 @@ export default function TextPage() {
         </p>
 
         <p>
-          Two publications were inculded in <i>Alcala</i>; the magazine style;{" "}
-          <i>Mindful Marinade</i>, and a hardbound book;{" "}
-          <i>Snakes of New Zealand</i>. Large-scale images presented in{" "}
+          Two publications were inculded in <i>Alcala</i>; the magazine style;{' '}
+          <i>Mindful Marinade</i>, and a hardbound book;{' '}
+          <i>Snakes of New Zealand</i>. Large-scale images presented in{' '}
           <i>Heat Pits</i> first appeared in this second publication –
           reconfigured here in the artist’s aestheticised parody of a classroom.
           References to a controlling shadow-side of learning environments can
@@ -227,5 +227,5 @@ export default function TextPage() {
         </p>
       </TextLayout>
     </Layout>
-  );
+  )
 }

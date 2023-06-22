@@ -1,20 +1,20 @@
-import { useState } from "react";
-import Layout from "../../components/layout";
-import ReactPlayer from "react-player";
-import { useMediaQuery } from "../../lib/mediaQuery";
+import { useState } from 'react'
+import Layout from '../../components/layout'
+import ReactPlayer from 'react-player'
+import { useMediaQuery } from '../../lib/mediaQuery'
 import {
   MdPlayCircleOutline,
   MdPauseCircleOutline,
   MdVolumeOff,
   MdVolumeUp,
-} from "react-icons/md";
-import { rootPath } from "../../lib/text";
+} from 'react-icons/md'
+import { rootPath } from '../../lib/text'
 
 export default function BealeySloughing() {
-  const isLargeScreen = useMediaQuery(`(min-width:1024px)`);
-  const isMedScreen = useMediaQuery(`(min-width:768px)`);
-  const [isPlaying, setIsPlaying] = useState(true);
-  const [isMuted, setIsMuted] = useState(false);
+  const isLargeScreen = useMediaQuery(`(min-width:1024px)`)
+  const isMedScreen = useMediaQuery(`(min-width:768px)`)
+  const [isPlaying, setIsPlaying] = useState(true)
+  const [isMuted, setIsMuted] = useState(false)
 
   return (
     <Layout>
@@ -61,7 +61,7 @@ export default function BealeySloughing() {
         )}
       </div>
     </Layout>
-  );
+  )
 
   function Controls() {
     return (
@@ -76,6 +76,6 @@ export default function BealeySloughing() {
           {isMuted ? <MdVolumeOff /> : <MdVolumeUp />}
         </button>
       </div>
-    );
+    )
   }
 }

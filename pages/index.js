@@ -13,7 +13,8 @@ export default function Home() {
       </div>
       <div className="grid flex-grow sm:grid-cols-titlePage-sm md:grid-cols-titlePage-md lg:grid-cols-titlePage-lg">
         <div />
-        <div className="self-start">
+        <div className="self-start" />
+        {/* <div className="self-start">
           <Show
             src={`${rootPath}/images/title-images/600px/alcala.jpg`}
             height={481}
@@ -22,7 +23,7 @@ export default function Home() {
             gallery="Alcala Motor Lodge"
             link="alcala"
           />
-        </div>
+        </div> */}
         <div className="self-end">
           <Show
             src={`${rootPath}/images/title-images/600px/shelter-house.jpg`}

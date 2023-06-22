@@ -1,5 +1,5 @@
-import Layout from "../../components/layout";
-import TextLayout from "../../components/text-layout";
+import Layout from '../../components/layout'
+import TextLayout from '../../components/text-layout'
 
 export default function TextPage() {
   return (
@@ -113,5 +113,5 @@ export default function TextPage() {
         </p>
       </TextLayout>
     </Layout>
-  );
+  )
 }

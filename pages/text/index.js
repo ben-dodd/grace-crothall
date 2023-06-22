@@ -1,5 +1,5 @@
-import Layout from "../../components/layout";
-import Text from "../../components/text";
+import Layout from '../../components/layout'
+import Text from '../../components/text'
 
 export default function TextPage() {
   return (
@@ -22,5 +22,5 @@ export default function TextPage() {
         />
       </div>
     </Layout>
-  );
+  )
 }

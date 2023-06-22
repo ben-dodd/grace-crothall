@@ -1,5 +1,5 @@
-import TextLayout from "../../components/text-layout";
-import Layout from "../../components/layout";
+import TextLayout from '../../components/text-layout'
+import Layout from '../../components/layout'
 
 export default function TextPage() {
   return (
@@ -265,19 +265,19 @@ export default function TextPage() {
         </p>
         <p className="font-bold pt-8">Works cited:</p>
         <p className="py-4">
-          Douglas, M. (1966; 2005 edn.){" "}
+          Douglas, M. (1966; 2005 edn.){' '}
           <i>
             Purity and danger: an analysis of concept of pollution and taboo.
-          </i>{" "}
+          </i>{' '}
           London; New York: Routledge (Routledge classics).
         </p>
         <p className="py-4">
-          Kristeva, J. and Roudiez, L. S. (1980; 2010 edn.){" "}
+          Kristeva, J. and Roudiez, L. S. (1980; 2010 edn.){' '}
           <i>Powers of horror: an essay on abjection.</i>
           Nachdr. New York, NY: Columbia Univ. Press (European perspectives).
         </p>
         <p className="py-4">
-          Peterson, E. H. (2018){" "}
+          Peterson, E. H. (2018){' '}
           <i>The Message: The Bible in Contemporary Language.</i>
         </p>
         <p className="py-4">
@@ -290,5 +290,5 @@ export default function TextPage() {
         </p>
       </TextLayout>
     </Layout>
-  );
+  )
 }
